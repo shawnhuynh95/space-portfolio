@@ -15,7 +15,7 @@ const Projects = () => {
     >
       <motion.h1
         variants={slideInFromTop(0.5)}
-        className="bold-40 text-transparent py-20 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500"
+        className="bold-28 md:bold-40 xl:bold-64 text-transparent py-20 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500"
       >
         My Projects
       </motion.h1>

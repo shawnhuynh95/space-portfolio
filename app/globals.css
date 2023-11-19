@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
@@ -30,7 +28,6 @@
   border-radius: 32px;
   box-shadow: inset 0 -7px 11px #a48fff1f;
   display: flex;
-
   position: relative;
   width: -moz-max-content;
   width: max-content;
@@ -71,22 +68,22 @@ html {
 }
 
 @layer utilities {
-  .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50  hover:bg-white/95
+  .btn_white {
+    @apply border-white bg-white px-8 py-3 text-green-50  hover:bg-white/95;
   }
-  .btn_white_text  { 
-    @apply  border-gray-30 bg-white px-8 py-3 text-gray-90 hover:bg-neutral-50
+  .btn_white_text {
+    @apply border-gray-30 bg-white px-8 py-3 text-gray-90 hover:bg-neutral-50;
   }
-  .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-3 text-white hover:bg-green-500
+  .btn_green {
+    @apply border-green-50 bg-green-50 px-8 py-3 text-white hover:bg-green-500;
   }
-  .btn_dark_green { 
-    @apply  bg-green-90 px-8 py-3 text-white transition-all hover:bg-black
+  .btn_dark_green {
+    @apply bg-green-90 px-8 py-3 text-white transition-all hover:bg-black;
   }
-  .btn_dark_green_outline  { 
-    @apply border-gray-20 bg-green-90 px-8 py-3 text-white hover:bg-zinc-700
+  .btn_dark_green_outline {
+    @apply border-gray-20 bg-green-90 px-8 py-3 text-white hover:bg-zinc-700;
   }
-  
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
@@ -167,7 +164,11 @@ html {
   .bold-32 {
     @apply text-[32px] font-[700] leading-[120%];
   }
-  
+
+  .bold-28 {
+    @apply text-[28px] font-[700] leading-[120%];
+  }
+
   .bold-24 {
     @apply text-[24px] font-[700] leading-[120%];
   }

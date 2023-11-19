@@ -13,7 +13,7 @@ const SkillText = () => {
     <motion.div
       initial="hidden"
       // animate="visible"
-      whileInView='visible'
+      whileInView="visible"
       className="flexCenter flex-col w-full h-auto"
     >
       <motion.div
@@ -27,9 +27,11 @@ const SkillText = () => {
       </motion.div>
       <motion.h1
         variants={slideInFromLeft(0.5)}
-        className="font-medium text-[30px] text-white mt-[10px] mb-[15px] text-center"
+        className="font-medium text-[24px] sm:text-[40px] text-white mt-[10px] mb-[15px] text-center"
       >
-        Making apps with modern technologies
+        Making apps with
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500"> modern </span>
+        technologies
       </motion.h1>
       <motion.p
         variants={slideInFromRight(0.5)}

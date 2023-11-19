@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent shadow-lg text-gray-200 p-4">
       <div className="flexCenter w-full flex-col m-auto">
-        <div className="flex item-center justify-around flex-wrap w-full h-full">
+        <div className="flex item-center justify-around flex-wrap w-full h-full gap-5 sm:gap-0">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="bold-20">Community</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
@@ -68,7 +68,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <hr className="w-[400px] md:w-[500px] h-[1px] mt-[20px] mx-auto bg-white" />
+        <hr className="w-[300px] md:w-[500px] h-[1px] mt-[20px] mx-auto bg-white" />
         <div className="mt-[10px] text-[15px] text-center">
           &copy; ShawnDev 2023 Inc. All rights reserved
         </div>

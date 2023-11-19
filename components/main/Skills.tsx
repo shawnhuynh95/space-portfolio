@@ -13,11 +13,11 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      style={{ transform: "scale(0.9" }}
-      className="flexCenter flex-col h-full relative gap-3 overflow-hidden pb-50 py-20"
+      // style={{ transform: "scale(0.9)" }}
+      className="flexCenter flex-col h-full relative gap-3 overflow-hidden py-10 md:py-10"
     >
       <SkillText />
-      <div className="flex justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Skill_data.map((image, i) => (
           <SkillDataProvider
             key={i}
@@ -28,7 +28,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Frontend_skill.map((image, i) => (
           <SkillDataProvider
             key={i}
@@ -39,7 +39,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Backend_skill.map((image, i) => (
           <SkillDataProvider
             key={i}
@@ -50,7 +50,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Full_stack.map((image, i) => (
           <SkillDataProvider
             key={i}
@@ -61,7 +61,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Other_skill.map((image, i) => (
           <SkillDataProvider
             key={i}

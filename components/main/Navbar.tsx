@@ -14,12 +14,12 @@ const Navbar = () => {
             height={70}
             className="cursor-pointer hover:animate-slowpin"
           />
-          <span className="bold-24 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 ml-[10px] hidden md:block">
+          <span className="bold-18 xl:bold-24 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 ml-[10px] hidden lg:block">
             ShawnDev
           </span>
         </a>
-        <div className="flex-2 w-auto min-w-[275px] lg:w-[500px] h-full flexBetween">
-          <div className="flexBetween w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-5 py-[10px] rounded-full text-gray-200">
+        <div className="flex-2 w-auto min-w-[225px] md:w-[350px] lg:w-[500px] h-full flexBetween">
+          <div className="text-[14px] md:text-[18px] flexBetween w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-5 py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About me
             </a>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <div className="flexEnd flex-1 gap-3 md:gap-5">
+        <div className="flexEnd flex-1 gap-2 md:gap-5">
           {Socials.map((social) => (
             <Image
               key={social.name}
@@ -39,7 +39,7 @@ const Navbar = () => {
               alt={social.name}
               width={24}
               height={24}
-              className="cursor-pointer"
+              className="cursor-pointer h-4 w-4 md:w-6 md:h-6"
             />
           ))}
         </div>

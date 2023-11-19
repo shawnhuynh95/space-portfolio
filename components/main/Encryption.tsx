@@ -21,9 +21,9 @@ const Encryption = () => {
         className="w-auto h-auto top-0 z-[5]"
         variants={slideInFromTop(0.5)}
       >
-        <span className="bold-40 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
+        <span className="bold-28 md:bold-40 xl:bold-64 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
           Performance
-          <span className="text-white text-[30px]"> & </span>
+          <span className="text-white text-[20px] md:text-[40px]"> & </span>
           Security
         </span>
       </motion.div>
@@ -49,7 +49,7 @@ const Encryption = () => {
         </div>
       </div>
       <motion.p
-        className="z-[20] bottom-[10px] px-[5px] cursive text-[20px] font-medium text-center text-gray-300"
+        className="z-[20] bottom-[10px] px-[5px] cursive text-[16px] md:text-[20px] font-medium text-center text-gray-300"
         variants={slideInFromTop(1.5)}
       >
         Secure your data with end-to-end encryption
