@@ -8,10 +8,10 @@ const Navbar = () => {
       <div className="w-full h-full flexBetween m-auto px-[10px]">
         <a href="#about-me" className="flex-1 w-auto h-auto flex items-center">
           <Image
-            src="/Navlogo.png"
+            src="/logo.png"
             alt="logo"
-            width={70}
-            height={70}
+            width={50}
+            height={50}
             className="cursor-pointer hover:animate-slowpin"
           />
           <span className="bold-18 xl:bold-24 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 ml-[10px] hidden lg:block">

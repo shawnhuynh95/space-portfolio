@@ -18,7 +18,7 @@ const HeroContent = () => {
       whileInView="visible"
       className="h-full w-full flexCenter px-20 mt-40 z-20"
     >
-      <div className="h-full w-full flexCenter flex-col text-center md:items-start md:text-start border border-red-500">
+      <div className="h-full w-full flexCenter flex-col text-center md:items-start md:text-start">
         <motion.div
           variants={slideInFromTop(0.5)}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -57,7 +57,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="md:w-full h-full flexCenter hidden md:block border border-yellow-500"
+        className="md:w-full h-full flexCenter hidden md:block"
       >
         <Image
           src="/mainIconsdark.svg"
