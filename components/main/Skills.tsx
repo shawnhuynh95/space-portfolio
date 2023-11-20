@@ -14,10 +14,10 @@ const Skills = () => {
     <section
       id="skills"
       // style={{ transform: "scale(0.9)" }}
-      className="flexCenter flex-col h-full relative gap-3 overflow-hidden py-10 md:py-10"
+      className="flexCenter flex-col h-full overflow-hidden"
     >
       <SkillText />
-      <div className="flex justify-center flex-wrap gap-5 items-center scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
+      <div className="flex justify-center flex-wrap items-center gap-5 scale-[0.6] lg:scale-[0.8] xl:scale-[0.9]">
         {Skill_data.map((image, i) => (
           <SkillDataProvider
             key={i}
@@ -76,7 +76,7 @@ const Skills = () => {
       <div className="w-full h-full absolute">
         <div className="w-full h-full z-[-10] flexCenter opacity-30 bg-cover absolute">
           <video
-            src="/cards-video.webm"
+            src="/cards-video.mp4"
             preload="false"
             muted
             loop

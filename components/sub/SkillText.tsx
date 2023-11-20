@@ -14,7 +14,7 @@ const SkillText = () => {
       initial="hidden"
       // animate="visible"
       whileInView="visible"
-      className="flexCenter flex-col w-full h-auto"
+      className="flexCenter flex-col w-full h-auto mt-10 py-10"
     >
       <motion.div
         variants={slideInFromTop(0.5)}
